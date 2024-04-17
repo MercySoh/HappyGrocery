@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using HappyGrocery.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<HappyGroceryContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("HappyGroceryContext") ?? throw new InvalidOperationException("Connection string 'HappyGroceryContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
