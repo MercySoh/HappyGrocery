@@ -19,6 +19,10 @@ namespace HappyGrocery.Controllers
             _context = context;
         }
 
+        public CategoriesController()
+        {
+        }
+
         // GET: Categories
         public async Task<IActionResult> Index()
         {
