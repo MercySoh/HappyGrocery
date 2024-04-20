@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyGrocery", "HappyGrocery.csproj", "{813961D1-1D28-42D2-8C28-634E159C1D9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyGrocery", "HappyGrocery.csproj", "{813961D1-1D28-42D2-8C28-634E159C1D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyGroceryTests1", "..\HappyGroceryTests1\HappyGroceryTests1.csproj", "{0CD24ECC-B538-4566-A75D-5F5E017F12CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{813961D1-1D28-42D2-8C28-634E159C1D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{813961D1-1D28-42D2-8C28-634E159C1D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{813961D1-1D28-42D2-8C28-634E159C1D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD24ECC-B538-4566-A75D-5F5E017F12CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD24ECC-B538-4566-A75D-5F5E017F12CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD24ECC-B538-4566-A75D-5F5E017F12CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD24ECC-B538-4566-A75D-5F5E017F12CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
