@@ -7,7 +7,7 @@ namespace HappyGrocery.Models
         [Key]
         public int CategoryId { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter category name.")]
         public string? CategoryName { get; set; }
     }
 }
