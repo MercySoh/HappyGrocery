@@ -19,5 +19,9 @@ namespace HappyGrocery.Data
         public DbSet<HappyGrocery.Models.Category> Category { get; set; } = default!;
 
         public DbSet<HappyGrocery.Models.User> User { get; set; } = default!;
+
+        public DbSet<HappyGrocery.Models.ShoppingCartItem> ShoppingCartItem { get; set; } = default!;
+
+       
     }
 }
